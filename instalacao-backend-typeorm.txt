@@ -1,0 +1,12 @@
+npm i typeorm --save
+npm i reflect-metadata --save
+npm i @types/node --save-dev
+
+Instalar banco de dados
+npm i mysql2 --save
+npm i sqlite3 --save
+npm i pg --save
+npm i mssql --save
+
+
+npx typeorm migration:create src/migration/CreateSituationTable
